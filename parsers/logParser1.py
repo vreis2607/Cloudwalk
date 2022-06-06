@@ -1,4 +1,5 @@
 import re
+from collections import OrderedDict
 
 # Regex match start game
 start_regex = re.compile(r".*InitGame:.*")
