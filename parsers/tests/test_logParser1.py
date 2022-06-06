@@ -4,9 +4,9 @@ import pytest
 from parsers.logParser1 import parse_game_kills, parse_kill_line
 
 
-class TestTask1:
+class TestLogParser1:
     """
-    Run tests on task1 parser
+    Run tests on logParser1 parser
     """
 
     @pytest.fixture
