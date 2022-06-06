@@ -8,7 +8,7 @@ class TestLogParser1:
     """
     Run tests on logParser1 parser
     """
-
+    # Path to the custom logfile "test.log"
     @pytest.fixture
     def task1_logfile(self):
         logfile = os.path.join(
