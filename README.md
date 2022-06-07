@@ -4,6 +4,16 @@ Log parser created to parse a Quake logfile.
 
 ## Run commands
 
+### Run test
+```
+$ pytest
+```
+
+### Run test verbose mode
+```
+$ pytest -v
+```
+
 ### Run verbose mode
 ```
 $ python run.py -f qgames.log -v
